@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jaffu Code || Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <canvas id="particles"></canvas>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="logo">Jaffu<span>Code</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#portfolio">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content reveal">
+      <p class="hero-greeting">// Hello World 👾</p>
+      <h1>Hi, I'm <span class="neon-text">JAFURULLA S</span></h1>
+      <h2 class="typing-wrapper">I'm a <span id="typed"></span><span class="cursor">|</span></h2>
+      <p class="hero-desc">Enthusiastic Full Stack Developer from Coimbatore, India — skilled in HTML, CSS, JavaScript, Python & SQL. Passionate about building responsive, real-world web apps.</p>
+      <div class="hero-btns">
+        <a href="jaffu_resume.pdf" class="btn btn-neon" download>Download CV</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/jafurulla2005" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/jafurullas" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:jafurullasyed@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-img reveal">
+      <div class="img-glow">
+        <img src="Gemini_Generated_Image_bv57ldbv57ldbv57.png" alt="Jafurulla S"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-header reveal">
+      <p class="section-tag">// who am I</p>
+      <h2 class="section-title">About <span class="neon-text">Me</span></h2>
+    </div>
+    <div class="about-container">
+      <div class="about-text reveal">
+        <p>I'm an enthusiastic Full Stack Developer from <strong>Coimbatore, Tamil Nadu</strong> with hands-on experience building responsive web applications and database-driven projects.</p>
+        <p>Currently a pre-final year <strong>B.E. Electrical & Electronics Engineering</strong> student at RVS College of Engineering & Technology (7.2 CGPA), and enrolled in <strong>NxtWave's CCBP 4.0 Full-Stack Development</strong> program since Jan 2024.</p>
+        <p>I've completed <strong>2 internships</strong>, built real projects, and I'm passionate about solving problems through clean, modern code.</p>
+        <div class="about-stats">
+          <div class="stat-box">
+            <h3 class="neon-text">2</h3><p>Internships</p>
+          </div>
+          <div class="stat-box">
+            <h3 class="neon-text">3</h3><p>Projects</p>
+          </div>
+          <div class="stat-box">
+            <h3 class="neon-text">7.2</h3><p>CGPA</p>
+          </div>
+          <div class="stat-box">
+            <h3 class="neon-text">1+</h3><p>Yrs Coding</p>
+          </div>
+        </div>
+        <a href="jaffu_resume.pdf" class="btn btn-neon" download>Download CV</a>
+      </div>
+
+      <div class="about-tabs reveal">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-tab="skills">Skills</button>
+          <button class="tab-btn" data-tab="education">Education</button>
+          <button class="tab-btn" data-tab="softskills">Soft Skills</button>
+        </div>
+
+        <!-- SKILLS TAB -->
+        <div class="tab-content active" id="skills">
+          <p class="skill-category">⚡ Frontend</p>
+          <div class="skill-item">
+            <div class="skill-label"><span>HTML & CSS</span><span class="neon-text">70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>JavaScript</span><span class="neon-text">55%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>Bootstrap</span><span class="neon-text">65%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>React.js</span><span class="neon-text">30%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="30"></div></div>
+          </div>
+          <p class="skill-category" style="margin-top:14px">🔧 Backend & DB</p>
+          <div class="skill-item">
+            <div class="skill-label"><span>Python</span><span class="neon-text">60%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>SQLite / MongoDB</span><span class="neon-text">55%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>Git & Flexbox</span><span class="neon-text">50%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+          </div>
+        </div>
+
+        <!-- EDUCATION TAB -->
+        <div class="tab-content" id="education">
+          <div class="edu-item">
+            <span class="edu-year neon-text">Jan 2024 – Ongoing</span>
+            <h4>NxtWave Disruptive Technologies</h4>
+            <p>IndustryReady Certification in Full-Stack Development</p>
+          </div>
+          <div class="edu-item">
+            <span class="edu-year neon-text">2022 – 2026</span>
+            <h4>RVS College of Engineering & Technology</h4>
+            <p>B.E. — Electrical & Electronics Engineering | CGPA: 7.2</p>
+          </div>
+          <div class="edu-item">
+            <span class="edu-year neon-text">2020 – 2022</span>
+            <h4>Govt. HSS Valikandapuram, Perambalur</h4>
+            <p>Intermediate — MBiPC | 62.0%</p>
+          </div>
+          <div class="edu-item">
+            <span class="edu-year neon-text">2019 – 2020</span>
+            <h4>Govt. HSS Valikandapuram, Perambalur</h4>
+            <p>Secondary School Certificate | 68.0%</p>
+          </div>
+        </div>
+
+        <!-- SOFT SKILLS TAB -->
+        <div class="tab-content" id="softskills">
+          <div class="soft-grid">
+            <div class="soft-item">💡 Problem Solving</div>
+            <div class="soft-item">🤝 Teamwork</div>
+            <div class="soft-item">🗣️ Communication</div>
+            <div class="soft-item">🔄 Adaptability</div>
+            <div class="soft-item">🎨 UI/UX Design</div>
+            <div class="soft-item">📡 IoT</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <div class="section-header reveal">
+      <p class="section-tag">// where I've worked</p>
+      <h2 class="section-title">Work <span class="neon-text">Experience</span></h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="tl-header">
+            <div>
+              <h3>Web Development Intern</h3>
+              <h4 class="neon-text">Cognifyz Technologies</h4>
+            </div>
+            <span class="tl-date">Remote | Feb 2025 – Mar 2025</span>
+          </div>
+          <p>Developed responsive web pages using HTML, CSS, Bootstrap, JavaScript, and Python with SQL integration. Improved UI/UX and collaborated on real-world web projects.</p>
+          <div class="tl-tags">
+            <span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span><span>Python</span><span>SQL</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="tl-header">
+            <div>
+              <h3>Back-End Developer Intern</h3>
+              <h4 class="neon-text">CodeCore Global HiTech Solutions</h4>
+            </div>
+            <span class="tl-date">Coimbatore | Jan 2025 – Feb 2025</span>
+          </div>
+          <p>Built and optimized MongoDB databases, performed CRUD and aggregation operations, and integrated backend using Python. Managed cloud data on MongoDB Atlas.</p>
+          <div class="tl-tags">
+            <span>Python</span><span>MongoDB</span><span>MongoDB Atlas</span><span>CRUD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="portfolio" id="portfolio">
+    <div class="section-header reveal">
+      <p class="section-tag">// what I've built</p>
+      <h2 class="section-title">My <span class="neon-text">Projects</span></h2>
+    </div>
+    <div class="portfolio-grid">
+
+      <div class="portfolio-card reveal">
+        <div class="card-glow-top"></div>
+        <div class="proj-icon">🌐</div>
+        <span class="badge">Full Stack</span>
+        <h3>Personal Portfolio Website</h3>
+        <p>Responsive personal website showcasing education, skills, and projects. Designed with HTML, CSS, Bootstrap, and JavaScript for dynamic UI and mobile compatibility.</p>
+        <div class="tl-tags">
+          <span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span>
+        </div>
+        <a href="https://portfolio-1umt.vercel.app" target="_blank" class="proj-link">View Live <i class="fas fa-external-link-alt"></i></a>
+      </div>
+
+      <div class="portfolio-card reveal">
+        <div class="card-glow-top"></div>
+        <div class="proj-icon">✅</div>
+        <span class="badge">Frontend</span>
+        <h3>Task Manager</h3>
+        <p>Interactive task management app with add, edit, and delete features using JavaScript DOM and Local Storage. Clean UI built with HTML, CSS, and Bootstrap.</p>
+        <div class="tl-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+        </div>
+        <a href="https://github.com/jafurullas" target="_blank" class="proj-link">View on GitHub <i class="fab fa-github"></i></a>
+      </div>
+
+      <div class="portfolio-card reveal">
+        <div class="card-glow-top"></div>
+        <div class="proj-icon">⌨️</div>
+        <span class="badge">JavaScript</span>
+        <h3>Typing Speed Test</h3>
+        <p>Typing test app measuring speed and accuracy using JavaScript DOM and Event Handling. Responsive layout styled with Bootstrap and CSS Flexbox.</p>
+        <div class="tl-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>REST API</span><span>Bootstrap</span>
+        </div>
+        <a href="https://github.com/jafurullas" target="_blank" class="proj-link">View on GitHub <i class="fab fa-github"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-header reveal">
+      <p class="section-tag">// let's talk</p>
+      <h2 class="section-title">Contact <span class="neon-text">Me</span></h2>
+    </div>
+    <div class="contact-container">
+      <div class="contact-info reveal">
+        <h3>Let's Build Something <span class="neon-text">Together</span></h3>
+        <p>Have a project in mind or just want to say hi? My inbox is always open.</p>
+        <div class="contact-links">
+          <a href="mailto:jafurullasyed@gmail.com" class="contact-link">
+            <i class="fas fa-envelope"></i>
+            <span>jafurullasyed@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/jafurulla2005" target="_blank" class="contact-link">
+            <i class="fab fa-linkedin"></i>
+            <span>linkedin.com/in/jafurulla2005</span>
+          </a>
+          <a href="https://github.com/jafurullas" target="_blank" class="contact-link">
+            <i class="fab fa-github"></i>
+            <span>github.com/jafurullas</span>
+          </a>
+          <a href="tel:6374697894" class="contact-link">
+            <i class="fas fa-phone"></i>
+            <span>+91 6374697894</span>
+          </a>
+        </div>
+      </div>
+      <form class="contact-form reveal" id="contactForm">
+        <div class="input-group">
+          <input type="text" id="cname" placeholder="Your Name" required/>
+        </div>
+        <div class="input-group">
+          <input type="email" id="cemail" placeholder="Your Email" required/>
+        </div>
+        <div class="input-group">
+          <textarea id="cmessage" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-neon">Send Message <i class="fas fa-paper-plane"></i></button>
+        <p class="form-msg" id="formMsg"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/jafurulla2005" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/jafurullas" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:jafurullasyed@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>Copyright &copy; 2025 by <span class="neon-text">Jaffu Code</span> || All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
